@@ -1,0 +1,388 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-ExtraBoldItalic.woff2') format('woff2');
+    font-weight: normal;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    /* margin: 50px;*/
+    background-image: url("img/photo-lucas-barioulet-afp-1571846217.jpg");
+    background-size: cover;
+    color: white;
+    border-radius: 50px;
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Kite One', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#toko {
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+#score-items {
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#test {
+    height: 100%;
+    display: block;
+    padding-top: 5%;
+}
+
+.compteur1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.compteur1 button {
+    width: 100px;
+    font-size: 60px;
+}
+
+.team-score {
+    text-align: center;
+    width: 35%;
+}
+
+#timer {
+    padding: auto;
+    font-size: 2.5vw;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3), -1px -1px 2px rgba(0, 0, 0, 0.3), 1px -1px 2px rgba(0, 0, 0, 0.3), -1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#VS {
+    margin-top: 45%;
+    font-size: 5vw;
+}
+
+.team {
+    font-size: 3vw;
+    margin-top: 16%;
+}
+
+#score1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14vw;
+    height: 70%;
+    background-color: #EB5E28;
+}
+
+#play-pause {
+    width: 11%;
+    height: 70%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+    left: 0;
+    top: 60%;
+}
+
+#score2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14vw;
+    height: 70%;
+    background-color: #EB5E28;
+}
+
+#temps-et-carton {
+    text-align: center;
+    width: 23%
+}
+
+#temps-et-carton p {
+    margin: 0px 0 0 0;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+#time-items {
+    display: block;
+    margin: -4% auto 5% auto;
+    height: 20%;
+    width: 80%;
+}
+
+.compteur {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+    width: 90%;
+    height: 60%;
+    border-radius: 20px;
+    background-color: #777474;
+}
+
+#play-pause-btn {
+    border: none;
+    font-size: 2.5vw;
+    width: 100%;
+    height: 120%;
+    border-radius: 10px;
+}
+
+.compteurs {
+    font-size: 2vw;
+    width: 7%;
+    max-height: 65px;
+    border-radius: 10px;
+    height: 60%;
+    border: none;
+}
+
+.compteur2 {
+    font-size: 60px;
+    width: 150px;
+}
+
+.compteur3 {
+    font-size: 60px;
+    width: 150px;
+}
+
+#c1 {
+    margin-right: 10%;
+    margin-left: 3%;
+}
+
+#c1- {
+    margin-left: 10%;
+    margin-right: 3%;
+}
+
+#c3 {
+    margin-right: 7%;
+    margin-left: 3.5%;
+}
+
+#c3- {
+    margin-left: 7%;
+    margin-right: 3.5%;
+}
+
+#carton-score {
+    text-align: center;
+    padding: 0%;
+}
+
+#list {
+    list-style: none;
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+    padding: 0 5%;
+}
+
+#list li {
+    border: 2px solid white;
+    display: inline-block;
+    width: 16.5%;
+    border-radius: 10px;
+}
+
+.compteurs:hover {
+    background-color: rgb(177, 146, 89);
+}
+
+.compteurs:active {
+    background-color: #EB5E28;
+}
+
+#play-pause-btn:hover {
+    background-color: rgb(177, 146, 89);
+}
+
+#play-pause-btn:active {
+    background-color: #EB5E28;
+}
+
+@media screen and (max-width: 768px) {
+    #toko {
+        font-size: 3vw;
+    }
+    #test {
+        height: 98%;
+        display: block;
+        padding-top: 15%;
+        margin-top: 0%;
+    }
+    #score-items {
+        display: flex;
+        justify-content: center;
+        color: white;
+        width: 95%;
+        height: 40%;
+    }
+    .compteur1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .compteur1 button {
+        width: 100px;
+        font-size: 60px;
+    }
+    .team-score {
+        text-align: center;
+        width: 38%;
+    }
+    #timer {
+        font-size: 3.8vw;
+        font-weight: bolder;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3), -1px -1px 2px rgba(0, 0, 0, 0.3), 1px -1px 2px rgba(0, 0, 0, 0.3), -1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+    #VS {
+        margin-top: 95%;
+        font-size: 8vw;
+    }
+    .team {
+        font-size: 4.5vw;
+        margin-top: 16%;
+    }
+    #score1 {
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 19vw;
+        height: 70%;
+        background-color: white;
+    }
+    #score2 {
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 19vw;
+        height: 70%;
+        background-color: white;
+    }
+    #temps-et-carton {
+        text-align: center;
+        width: 24%
+    }
+    #temps-et-carton p {
+        margin: 0px 0 0 0;
+        font-size: 4vw;
+        font-weight: bold;
+    }
+    #time-items {
+        display: block;
+        margin: 0px auto;
+        height: 20%;
+        width: 100%;
+    }
+    #play-pause {
+        height: 50%;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        z-index: 0;
+        left: 0;
+        top: 0;
+        width: 20%;
+    }
+    .compteur {
+        height: 40%;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 0;
+        align-items: center;
+        width: 95%;
+        border-radius: 15px;
+        background-color: #777474;
+    }
+    #play-pause-btn {
+        border: none;
+        font-size: 5vw;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .compteurs {
+        font-size: 3vw;
+        width: 40%;
+        max-height: 65px;
+        border-radius: 10px;
+        height: 60%;
+        border: none;
+    }
+    .compteur2 {
+        font-size: 60px;
+        width: 150px;
+    }
+    .compteur3 {
+        font-size: 60px;
+        width: 150px;
+    }
+    #c1 {
+        margin-right: 10%;
+        margin-left: 3%;
+    }
+    #c1- {
+        margin-left: 10%;
+        margin-right: 3%;
+    }
+    #c3 {
+        margin-right: 6%;
+        margin-left: 3.5%;
+    }
+    #c3- {
+        margin-left: 6%;
+        margin-right: 3.5%;
+    }
+    #carton-score {
+        text-align: center;
+        height: 30%;
+    }
+    #list {
+        list-style: none;
+        font-size: 5vw;
+        color: white;
+        padding: 0%;
+        margin: 5% 0 0 0;
+        height: 100%;
+    }
+    #list li {
+        border: 2px solid white;
+        display: block;
+        width: 80%;
+        border-radius: 7px;
+        margin: 2% auto;
+    }
+    .compteurs:hover {
+        background-color: rgb(177, 146, 89);
+    }
+    .compteurs:active {
+        background-color: #EB5E28;
+    }
+    #play-pause-btn:hover {
+        background-color: rgb(177, 146, 89);
+    }
+    #play-pause-btn:active {
+        background-color: #EB5E28;
+    }
+}
